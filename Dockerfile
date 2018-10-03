@@ -1,6 +1,6 @@
 FROM ruby
 
-ENV PHAROS_VERSION=1.3.2
+ENV PHAROS_VERSION=1.3.3
 WORKDIR /tmp
 
 RUN git clone https://github.com/kontena/pharos-cluster && \
